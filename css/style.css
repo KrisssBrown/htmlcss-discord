@@ -26,6 +26,8 @@ menu {
 
 .row {
 	display: flex;
+	align-items: center;
+	padding: 30px;
 }
 
 .row-reverse {
@@ -42,6 +44,10 @@ menu {
 
 .main-header .row {
 	align-items: center;
+}
+
+.main-header{
+	    background-color: #255EE9;
 }
 
 /* .logo {
@@ -69,8 +75,22 @@ menu {
 	flex-basis: 40%;
 }
 
+.col-40 h1{
+	padding-bottom: 20px;
+    font-size: 40px;
+}
+.col-40 p{
+	font-size: 18px;
+
+}
+
 .col-60 {
-	flex-basis: 60%;
+	display: flex;
+}
+
+.col-60 img {
+	width: 100%;
+	padding-right: 15px;
 }
 
 .col-100 {
@@ -81,7 +101,7 @@ menu {
 	background-color: #d3d3d3;
 }
 
-.bg-header{
+.hero.section{
 	background-image: url(../img/jumbo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -128,8 +148,8 @@ menu {
 }
 
 .button [class^="cta"]{
-	padding: 5px 25px;
-	border-radius: 20px;					
+	padding: 12px 25px;
+	border-radius: 999px;					
 }
 
 .cta1{
@@ -139,6 +159,53 @@ menu {
 
 .cta2{
 	background-color: #23272a;
+}
+
+.description{
+	text-align: center;
+	font-size: 28px;
+}
+
+.description-text{
+	padding-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.download-button button{
+	padding: 12px 25px;
+    border-radius: 999px;
+    color: white;
+    background-color: #7983F5;
+    border: none;
+}
+
+.download-title{
+	padding-bottom: 20px;
+}
+
+.cta-download{
+	text-align: center;
+}
+
+.stars-container{
+	position: relative;
+    top: 30px;
+}
+
+.col-16 h4{
+	color: #5865F2;
+}
+
+.col-16 li{
+	padding: 8px 0 8px 0;
+}
+
+.col-33 h3{
+	color: #5865F2;
+	font-weight: 900;
+	font-size: 20px;
+	text-align: left;
 }
 
 
@@ -151,9 +218,9 @@ remove classe debug from body to disable
 	padding: 10px 0;
 }
 
-.debug .main-content {
+/* .debug .main-content {
 	padding: 10px 0;
-}
+} */
 
 .debug .page-footer {
 	padding: 20px 0;
